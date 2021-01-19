@@ -33,7 +33,7 @@ function Todo(props) {
         <>
             <Modal open={open} onClose={(e) => setOpen(false)}>
                 <div className={classes.paper}>
-                    <h1>Update data</h1>
+                    <h1>Update todo</h1>
                     <Input
                         placeholder={props.todo.todo}
                         value={input}
@@ -42,7 +42,7 @@ function Todo(props) {
                         variant="contained"
                         color="primary"
                         onClick={updateTodo}>
-                        Update todo
+                        Update
                     </Button>
                 </div>
             </Modal>
